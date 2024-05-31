@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family:none;
+    color: black;
+    margin: 8px;
+}
+#mainCaption{
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-size: 80px;
+    font-family: 'Impact', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 35px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#btn{
+    font-size: 13px;
+    font-family: sans-serif;
+    border-width: 2px;
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    border-left-color: #545454;
+    border-top-color: #545454;
+    cursor:default;
+}
+
+#btn:hover{
+    background-color: green;  
+    transition: none;
+}
